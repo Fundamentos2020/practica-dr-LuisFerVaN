@@ -57,7 +57,7 @@
     height: auto;
 }
 .flex_container{
-    background-color: rebeccapurple;
+    background-color: rgba(245, 151, 11, 0.911);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,14 +67,102 @@
     /*Alinear elementos de manera vertical*/
     /*align-items: flex-start;*/
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .flex_container div{
-    background-color: rgba(22, 99, 146, 0.801);
-    font-size: 2em;
-    padding: 0.5em;
-    margin: 0.25em;
+    background-color: rgba(11, 116, 182, 0.801);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2em 1em 2em 1em;
+    margin: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .border{
     border: solid 1px black;
+}
+.txtW{
+    color: white;
+}
+.txtCenter{
+    text-align: center;
+}
+.redColor{
+    background-color: rgb(173, 16, 16);
+}
+.bt{
+    border-top: 1px solid lightgray;
+}
+.txtJust{
+    text-align: justify;
+}
+.flexColors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*Alinear elementos de manra horizontal*/
+    /*justify-content: space-between;*/
+    height: 100px;
+    /*Alinear elementos de manera vertical*/
+    /*align-items: flex-start;*/
+    align-content: center;
+    justify-content: center;
+}
+.flexRojo{
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+.flexMorado{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+.flexAzul{
+    background-color: rgb(67, 67, 199);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+.flexVerde{
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+.flexAmarillo{
+    background-color: yellow;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+.flexNaranja{
+    background-color: orange;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 1em 3em;
+    text-align: left;
+}
+#foto{
+    background-image: url("https://picsum.photos/400/300");
+    height: 7em;
+    align-items: flex-end;
 }
